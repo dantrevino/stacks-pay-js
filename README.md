@@ -331,13 +331,13 @@ For any questions, suggestions, or support, please reach out:
 
 - **GitHub Issues**: [stacks-pay-js/issues](https://github.com/dantrevino/stacks-pay-js/issues)
 
-## 📂 Repository
+## Repository
 
 Access the source code and contribute on GitHub:
 
 - **GitHub Repository**: [https://github.com/dantrevino/stacks-pay-js](https://github.com/dantrevino/stacks-pay-js)
 
-## 🔗 Additional Resources
+## Additional Resources
 
 - **Stacks Pay SIP**: [Stacks Pay SIP on GitHub](https://github.com/stacksgov/sips)
 - **Bech32m Specification**: [BIP-350](https://github.com/bitcoin/bips/blob/master/bip-0350.mediawiki)
