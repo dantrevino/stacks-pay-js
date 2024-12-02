@@ -1,6 +1,6 @@
 {
   "name": "stacks-pay",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Payment Request Standard for Stacks Blockchain Payments",
   "main": "dist/src/index.js",
   "types": "dist/src/types.js",
