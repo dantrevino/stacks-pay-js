@@ -1,12 +1,18 @@
 {
   "name": "stacks-pay",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Payment Request Standard for Stacks Blockchain Payments",
-  "main": "dist/src/index.js",
-  "types": "dist/src/types.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
