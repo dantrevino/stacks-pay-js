@@ -174,7 +174,10 @@ export function decodeStacksPayURL(fullURL: string): CommonParameters {
       throw new Error("Invalid protocol in URL");
     }
 
-    const bech32mEncodedURL = fullURL.replace("web+stx:", "");
+    const bech32mEncodedURL = fullURL.replace(
+      "web+stx:",
+      ""
+    ) as `${string}1${string}`;
 
     const url = bech32mDecode(bech32mEncodedURL);
 

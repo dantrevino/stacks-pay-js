@@ -28,6 +28,7 @@
   "author": "Dan Trevino <dantrevino@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@types/bech32": "^1.1.8",
     "bech32": "^2.0.0",
     "c32check": "^2.0.0"
   },
