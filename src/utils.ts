@@ -4,7 +4,7 @@ import { bech32m } from "bech32";
 import { c32addressDecode } from "c32check";
 
 export function isValidToken(token: string): boolean {
-  if (token === "STX") return true;
+  if (token === "STX" || token === "stx") return true;
   const parts = token.split(".");
   if (parts.length !== 2) return false;
   const [address, contractName] = parts;
